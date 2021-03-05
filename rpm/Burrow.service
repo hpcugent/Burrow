@@ -1,0 +1,12 @@
+[Unit]
+Description=burrow
+Documentation=https://github.com/hpcugent/Burrow
+Wants=kafka.target
+After=kafka.target
+
+[Service]
+ExecStart=/usr/bin/Burrow --config-dir /etc/burrow/ 
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

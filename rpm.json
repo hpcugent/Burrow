@@ -1,0 +1,25 @@
+{
+  "name": "burrow",
+  "version": "!version!",
+  "arch": "!arch!",
+  "release": "1",
+  "summary": "service for monitoring kafka",
+  "group": "System/Monitoring",
+  "license": "Apache 2.0",
+  "url": "https://github.com/linkedin/Burrow/",
+  "description": "Kafka lag monitoring",
+  "files": [
+    {
+      "from": "Burrow",
+      "to": "%{_bindir}/",
+      "base": "",
+      "type": ""
+    },
+    {
+      "from": "rpm/Burrow.service",
+      "to": "%{_unitdir}/",
+      "base": "rpm"
+    }
+  ]
+}
+

@@ -7,7 +7,7 @@
   "group": "System/Monitoring",
   "license": "Apache 2.0",
   "url": "https://github.com/linkedin/Burrow/",
-  "description": "GPFS usage logging",
+  "description": "Kafka lag monitoring",
   "files": [
     {
       "from": "Burrow",
